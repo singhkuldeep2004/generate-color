@@ -2,7 +2,6 @@ let btn = document.querySelector("button");
 let div = document.querySelector("div");
 
 btn.addEventListener("click", function(){
-    console.log("generate random color");
     getRandomColor();  // Correctly calling the function here
 });
 
